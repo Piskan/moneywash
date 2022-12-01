@@ -1,0 +1,432 @@
+* {
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: deneme;
+    src: url(TT_Commons_Medium.otf);
+}
+
+@font-face {
+    font-family: deneme2;
+    src: url(TT_Commons_Light.otf);
+}
+
+
+@font-face {
+    font-family: deneme3;
+    src: url(TT_Commons_Bold.otf);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    user-select: none;
+    overflow: hidden;
+}
+
+
+.moneymain{
+    height: 100%; 
+    background: #070707e9;
+}
+
+
+.moneyleftside{
+ 
+ position: absolute;
+ width: 100px;
+ height: 90%;
+ background: rgba(0, 0, 0, 0.237);
+
+ /* transform: rotate3d(180deg); */
+ top: 5%;
+ left: 15px;
+ /* display: inline-block; */
+
+ background: linear-gradient(to top, rgba(30,87,153,0) 0%,#5a5a5843 50%,#5a5a5843 51%,rgba(225,228,226,0) 99%,rgba(229,229,229,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+}
+
+
+.moneyleftsidetext{
+    position: relative;
+
+    margin-top: 100px;
+    text-align: center;
+    font-family: deneme;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    transform: rotate(-90deg);
+    /* background-color: red; */
+
+}
+
+
+.moneyrightside{
+ 
+    position: absolute;
+    width: 100px;
+    height: 90%;
+    background: linear-gradient(to top, rgba(30,87,153,0) 0%,#5a5a5843 50%,#5a5a5843 51%,rgba(225,228,226,0) 99%,rgba(229,229,229,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   
+    /* transform: rotate3d(180deg); */
+    top: 5%;
+    right: 15px;
+    /* display: inline-block; */
+   
+       
+   }
+   
+.moneyrightsidetext{
+    position: relative;
+
+    margin-top: 100px;
+    text-align: center;
+    font-family: deneme;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    transform: rotate(-90deg);
+    /* background-color: red; */
+
+}
+
+
+
+.moneysidemenusimg{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    /* background-color: rgba(0, 0, 0, 0.381); */
+    opacity: 0.2;
+    margin-top: 40px;
+    margin-left: 10px;
+    border: none;
+    /* background-image: url(https://us.123rf.com/450wm/elovich/elovich1412/elovich141200820/34786224-%EC%8A%A4%ED%8F%AC%ED%8A%B8-%EB%9D%BC%EC%9D%B4%ED%8A%B8-%EB%A7%88%EC%8A%A4%ED%81%AC%EA%B0%80%EC%9E%88%EB%8A%94-%EB%B8%94%EB%9E%99-%EC%85%80-%EC%B9%B4%EB%B3%B8-%ED%8C%A8%ED%84%B4.jpg?ver=6); */
+    /* background: linear-gradient(to top, rgba(30,87,153,0) 0%,rgba(0, 0, 0, 0.504) 50%,rgba(0, 0, 0, 0.504) 51%,rgba(225,228,226,0) 99%,rgba(229,229,229,0) 100%);
+    background-image: repeating-linear-gradient(35deg,rgba(0, 0, 0, 0.248),rgba(0, 0, 0, 0.182) 25px,rgba(0, 0, 0, 0.198) 25px, rgba(34, 34, 34, 0.7) 25px, rgba(34, 34, 34, 0.445) 50px); */
+    /* background:linear-gradient(to top, transparent, #b1b1b1 100%), gray repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255, 255, 255, 0.5) 35px, rgba(255, 255, 255, 0.5) 70px); */
+
+}
+
+.moneytopfirstext{
+    position: absolute;
+    text-align: center;
+   top: 15%;
+   left: 38%;
+   /* width: 400px; */
+   font-family: deneme;
+   font-size: 65px;
+   font-weight: 600;
+   color: white;
+   text-transform: uppercase;
+   display: flex;
+   /* border: 1px solid red; */
+}
+
+.moneytirnak{
+    position: absolute;
+    bottom: -20px;
+    left: 5px;
+    font-family: deneme;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 0px 1px 7px rgba(223, 223, 223, 1);
+}
+
+.moneytirnak2{
+    position: absolute;
+    /* margin-top: 80px;
+    margin-left: 300px; */
+    bottom: -20px;
+    right: -5px;
+    font-family: deneme;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 0px 1px 7px rgba(223, 223, 223, 1);
+}
+
+.moneytoptxtunder{
+    position: relative;
+    text-align: center;
+   top: 24%;
+   left: 40.5%;
+   width: 350px;
+   height: 100px;
+   /* border: 1px solid red; */
+   font-family: deneme;
+   font-size: 16px;
+   font-weight: 500;
+   color: white;
+   opacity: 0.3;
+   
+}
+
+.moneycentermain{
+    position: relative;
+    top: 27%;
+    left: 37%;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+       /* border: 1px solid red; */
+}
+
+.moneycentermainitem1{
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+    background-color: #5a5a5843;
+    font-family: deneme2;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.715);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.moneycentermainitem2{
+    float: left;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: #5a5a5843;
+    font-family: deneme2;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.715);
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    color: #90ff3bb3;
+
+}
+
+.moneycentermainitem2left{
+    display: flex;
+    width: 200px;
+    float: left;
+    /* margin: auto; */
+    margin: 14px 16px;
+    /* border: 1px solid yellow; */
+}
+
+.icondiv{
+    float: left;
+  padding: 3px 7px;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, #8fc92b94 0px -12px 30px, #8fc92b62 0px 4px 6px, #8fc92b94 0px 12px 13px, #8fc92b94 0px -3px 5px; */
+  background-color: #8fc92b;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 15px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset,
+  #8fc92b94 0px 5px 15px, #8fc92b94 0px -0px 2px, #8fc92b62 0px 0px 0px, #8fc92b94 0px -2px 5px, #8fc92b94 0px -3px 15px;
+}
+
+
+.icontext{
+    
+    font-family: deneme2;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.903);
+    margin-left: 20px;
+    margin-top: 6px;
+
+}
+
+.moneycentermainitem2right{
+    position: relative;
+    /* display: flex; */
+    float: right;
+    width: 200px;
+    height: 100%;
+    /* margin: auto; */
+    /* margin: 14px 16px; */
+    background-color: #314d18c4;
+    /* border: 1px solid yellow; */
+}
+
+
+.moneycentermainbutton{
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 12.5px;
+    background-color: #8fc92b9f;
+    font-family: deneme2;
+    font-size: 12px;
+    font-weight: 600;
+    color: #91ff3b;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border: 2px solid #8fc92b;
+    box-shadow: #8fc92b 0px 4px 12px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    cursor: pointer;
+}
+
+
+
+.moneywashleftline{
+    position: absolute;
+    width: 52px;
+    height: 240px;
+    background: transparent !important;
+    border-left: 1.5px solid rgba(183, 181, 181, 0.719);
+    border-bottom: 1.5px solid rgba(183, 181, 181, 0.719);
+    margin-top: 15px;
+    margin-left: -50px;
+    
+    /* opacity: 0.3; */
+}
+
+.moneywashleftline::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    /* top: 25%; */
+    width:20px;
+    /* height: 10%; */
+    line-height:50%;
+    /* height: 50%; */
+    border-top: 1.5px solid rgba(183, 181, 181, 0.719);
+}
+
+.moneywashleftlineicon{
+    position: absolute;
+    font-family: deneme;
+    font-size: 10px;
+    margin-top: 140px;
+    margin-left: -10px;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 0px 1px 7px rgba(223, 223, 223, 1);
+    color: white;
+}
+
+
+.moneywashrightline{
+    position: absolute;
+    width: 52px;
+    height: 240px;
+    background: transparent !important;
+    border-right: 1.5px solid rgba(183, 181, 181, 0.719);
+    border-bottom: 1.5px solid rgba(183, 181, 181, 0.719);
+    margin-top: 15px;
+    margin-left:495px;
+
+    
+    /* opacity: 0.3; */
+}
+
+.moneywashrightline::after{
+    content: '';
+    position: absolute;
+    right: 0px;
+    /* top: 25%; */
+    width:20px;
+    /* height: 10%; */
+    line-height:50%;
+    /* height: 50%; */
+    border-top: 1.5px solid rgba(183, 181, 181, 0.719);
+}
+
+.moneywashrightlineicon{
+    position: absolute;
+    font-family: deneme;
+    font-size: 10px;
+    margin-top: 140px;
+    margin-left: 42px;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 0px 1px 7px rgba(223, 223, 223, 1);
+    color: white;
+}
+
+
+.moneyprogressbarpart{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 160px;
+    background-color: #29292743;
+    border-radius: 50%;
+    box-shadow: #8fc92b 0px 4px 12px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+   
+}
+
+
+/* --------------------------------------------  */
+
+
+.progress {
+    width: 160px;
+    height: 160px;
+}
+
+.progress > svg {
+    height: 100%;
+    display: block;
+}
+
+
+
+
+.progresstext{
+    position: absolute;
+    font-family: deneme2;
+    /* background-color: red; */
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -105px;
+    margin-left: 34px;
+    color: rgba(255, 255, 255, 0.903);
+    
+}
+
+.progresscenter{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* background-color: red; */
+    margin-top: -140px;
+    margin-left: 20px;
+    /* z-index: -1; */
+    opacity: 0.1;
+    background:linear-gradient(to top, transparent, #b1b1b1 100%), gray repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(255, 255, 255, 0.5) 15px, rgba(255, 255, 255, 0.5) 70px);
+}
+
+.progresscancel{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 27px;
+}
+
+.moneycentermainbutton2{
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 5.5px;
+    background-color: #6f6c6b31;
+    font-family: deneme2;
+    font-size: 12px;
+    font-weight: 600;
+    color: #434140;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border: 2px solid #6f6c6b69;
+    box-shadow: #2d2d2b79 0px 4px 12px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    cursor: pointer;
+}
